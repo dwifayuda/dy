@@ -25,9 +25,19 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
 }
+li :hover{
+  opacity: 50%;
+  text-decoration: none;
+  font-weight: bold;
+}
+.link :hover{
+  opacity: 50%;
+  text-decoration: none;
+}
+
 .hero {
   background: url('https://i.ibb.co.com/zh9hXmq/Desain-tanpa-judul.png') no-repeat center center/cover;
-  height: 400px;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,4 +48,9 @@ nav ul li a {
   font-size: 3rem;
   margin: 0;
   font-weight: bold;
+}
+
+.card:hover{
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.05);
 }
