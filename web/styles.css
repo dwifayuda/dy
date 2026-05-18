@@ -1,10 +1,56 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+nav ul li {
+  margin: 0 1rem;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+li :hover{
+  opacity: 50%;
+  text-decoration: none;
+  font-weight: bold;
+}
+.link :hover{
+  opacity: 50%;
+  text-decoration: none;
 }
 
-#stopwatch-display {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.hero {
+  background: url('https://i.ibb.co.com/zh9hXmq/Desain-tanpa-judul.png') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.card:hover{
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.05);
 }
